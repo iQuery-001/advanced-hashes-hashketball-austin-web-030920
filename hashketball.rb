@@ -254,8 +254,8 @@ def big_shoe_rebounds
     team.each do |(attribute, data)|
       if attribute == :players
         data.each do |players|
-          if player[:player_name] == biggest_shoe_player
-            return player[:rebounds]
+          if players[:player_name] == biggest_shoe_player
+            return players[:rebounds]
           end
         end
       end
