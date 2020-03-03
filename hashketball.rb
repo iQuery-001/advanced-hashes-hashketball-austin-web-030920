@@ -182,9 +182,9 @@ def team_names
   game_hash.each do |(place, team)|
     # binding.pry
     team.each do |(attribute, data)|
-      if attribute == team_name
-      name_list << data
-    end
+      if attribute == :team_name
+        name_list << data
+      end
     end
       # binding.pry
   end
