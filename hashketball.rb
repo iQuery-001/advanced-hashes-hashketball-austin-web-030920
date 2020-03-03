@@ -218,7 +218,7 @@ def player_stats(given_player)
       if attribute == :players
         data.each do |player|
           # player.each do |(stat, value)|
-            # binding.pry
+            binding.pry
           end
         end
       end
