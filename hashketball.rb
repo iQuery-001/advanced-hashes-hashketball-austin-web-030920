@@ -191,3 +191,7 @@ def team_names
   # binding.pry
   name_list
 end
+
+def player_numbers
+  number_list = []
+end
