@@ -200,7 +200,8 @@ def player_numbers(team_name)
         if attribute == :players
           player_counter = 0
           while player_counter < data.length
-
+            binding.pry
+            player_counter += 1
           end
         end
       end
