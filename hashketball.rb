@@ -183,6 +183,7 @@ def team_names
     team.each do |(attribute, data)|
       # binding.pry
       if attribute == :players
+        binding.pry
         return data
       end
     end
