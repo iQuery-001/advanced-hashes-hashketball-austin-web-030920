@@ -212,7 +212,7 @@ def player_numbers(team_name)
 end
 
 def player_stats(given_player)
-  player_hash = {}
+  
   game_hash.each do |(place, team)|
     team.each do |(attribute, data)|
       # binding.pry
@@ -220,8 +220,9 @@ def player_stats(given_player)
         data.each do |player|
           # player.each do |(stat, value)|
             if player[:player_name] == given_player
+              player_hash = player
               if !player[:player_name]
-                
+                player_hash[]
               end
             end
             # binding.pry
