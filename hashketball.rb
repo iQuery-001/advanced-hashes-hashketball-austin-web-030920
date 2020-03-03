@@ -201,7 +201,7 @@ def player_numbers(team_name)
           player_counter = 0
           while player_counter < data.length
             # binding.pry
-            number_list << data[player_counter][:number]
+            number_list << :players[player_counter][:number]
             player_counter += 1
           end
         end
