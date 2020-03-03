@@ -215,6 +215,7 @@ def player_stats(given_player)
   game_hash.each do |(place, team)|
     team.each do |(attribute, data)|
       binding.pry
+      if attribute == :players
     end
   end
 end
