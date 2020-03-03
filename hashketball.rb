@@ -185,7 +185,7 @@ def team_names
       # binding.pry
       if attribute == :players
         binding.pry
-        return data[:player_name]
+        name_list << data[:player_name]
       end
     end
       # binding.pry
