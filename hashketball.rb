@@ -224,7 +224,6 @@ def player_stats(given_player)
               binding.pry
               player_hash.delete(:player_name)
               return player_hash
-              end
             end
             # binding.pry
           # end
