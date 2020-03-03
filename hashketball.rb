@@ -222,9 +222,8 @@ def player_stats(given_player)
             if player[:player_name] == given_player
               player_hash = player
               binding.pry
-              if !player[:player_name]
-                player_hash.delete(:player_name)
-                return player_hash
+              player_hash.delete(:player_name)
+              return player_hash
               end
             end
             # binding.pry
