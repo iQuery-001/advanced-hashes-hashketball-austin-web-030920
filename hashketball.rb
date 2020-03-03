@@ -178,5 +178,15 @@ def team_colors(team_name)
 end
 
 def team_names
-
+  game_hash.each do |(place, team)|
+    # binding.pry
+    team.each do |(attribute, data)|
+      # binding.pry
+      if attribute == :players
+        return data
+      end
+    end
+      # binding.pry
+  end
+end
 end
