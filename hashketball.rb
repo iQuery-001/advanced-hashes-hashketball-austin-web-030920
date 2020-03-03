@@ -178,6 +178,7 @@ def team_colors(team_name)
 end
 
 def team_names
+  name_list = []
   game_hash.each do |(place, team)|
     # binding.pry
     team.each do |(attribute, data)|
