@@ -188,7 +188,6 @@ def team_names
         data.each do |(stat, value)|
           name_list << stat[:player_name]
         end
-
       end
     end
       # binding.pry
