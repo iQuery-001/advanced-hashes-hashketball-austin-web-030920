@@ -300,11 +300,11 @@ def winning_team
     team.each do |(attribute, data)|
       if attribute == :players
         data.each do |player|
-
+          if place == home
+            home_points += player[:points]
+          end
         end
-        if place == home
-          home_points +=
-        end
+        
       end
     end
   end
