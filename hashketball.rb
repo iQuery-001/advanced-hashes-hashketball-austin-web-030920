@@ -219,7 +219,7 @@ def player_stats(given_player)
         data.each do |player|
           # player.each do |(stat, value)|
             if player[:player_name] == given_player
-              return :player_name
+              return player
             end
             # binding.pry
           # end
