@@ -190,4 +190,5 @@ def team_names
     end
       # binding.pry
   end
+  name_list
 end
