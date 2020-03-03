@@ -305,7 +305,7 @@ def winning_team
           else
             away_points += player[:points]
           end
-          
+
         end
 
       end
