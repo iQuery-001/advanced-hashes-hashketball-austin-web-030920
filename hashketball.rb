@@ -189,12 +189,12 @@ def team_names
       # binding.pry
   end
   # binding.pry
-  name_list(team_name)
+  name_list
 end
 
-def player_numbers
+def player_numbers(team_name)
   number_list = []
   game_hash.each do |(place, team)|
-
+    if team[:team_name] ==
   end
 end
