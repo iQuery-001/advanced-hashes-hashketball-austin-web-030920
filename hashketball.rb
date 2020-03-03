@@ -304,7 +304,7 @@ def winning_team
             home_points += player[:points]
           end
         end
-        
+
       end
     end
   end
