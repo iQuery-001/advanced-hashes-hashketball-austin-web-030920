@@ -300,7 +300,7 @@ def winning_team
     team.each do |(attribute, data)|
       if attribute == :players
         data.each do |player|
-          if place == home
+          if place == :home
             home_points += player[:points]
           else
             away_points += player[:points]
