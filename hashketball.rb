@@ -319,4 +319,29 @@ end
 def player_with_longest_name
   longest_length = 0
   longest_name = ""
+  game_hash.each do |(place, team)|
+    team.each do |(attribute, data)|
+      if attribute == :players
+        data.each do |player|
+          if player[:points] > most_points
+            most_points = player[:points]
+            highest_scorer = player[:player_name]
+            # binding.pry
+          end
+        end
+      end
+    end
+  end
+  # binding.pry
+  game_hash.each do |(place, team)|
+    team.each do |(attribute, data)|
+      if attribute == :players
+        data.each do |player|
+          if player[:player_name] == highest_scorer
+            return player[:player_name]
+          end
+        end
+      end
+    end
+  end
 end
