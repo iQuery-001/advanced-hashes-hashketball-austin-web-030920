@@ -187,6 +187,7 @@ def team_names
         # binding.pry
         data.each do |(stat, value)|
           name_list << stat[:player_name]
+          binding.pry
         end
       end
     end
