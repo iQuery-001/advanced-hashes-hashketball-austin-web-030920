@@ -199,7 +199,9 @@ def player_numbers(team_name)
       team.each do |(attribute, data)|
         if attribute == :players
           attribute.each do |(key, value)|
-            number_list << value
+            if key == :number
+              number_list << value
+            end
             binding.pry
           end
         end
