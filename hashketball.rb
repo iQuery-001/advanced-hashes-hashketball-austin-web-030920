@@ -208,5 +208,5 @@ def player_numbers(team_name)
       end
     end
   end
-  nymber_list
+  number_list
 end
