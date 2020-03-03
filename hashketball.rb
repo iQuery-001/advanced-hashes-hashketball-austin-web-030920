@@ -201,8 +201,8 @@ def player_numbers(team_name)
           attribute.each do |(key, value)|
             if key == :number
               number_list << value
+              binding.pry
             end
-            binding.pry
           end
         end
       end
