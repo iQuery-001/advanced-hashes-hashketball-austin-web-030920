@@ -299,7 +299,9 @@ def winning_team
   game_hash.each do |(place, team)|
     team.each do |(attribute, data)|
       if attribute == :players
-        
+        if place == home
+
+        end
       end
     end
   end
