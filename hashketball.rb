@@ -216,6 +216,11 @@ def player_stats(given_player)
     team.each do |(attribute, data)|
       binding.pry
       if attribute == :players
+        data.each do |player|
+          player.each do |(stat, value)|
+            binding.pry
+          end
+        end
     end
   end
 end
