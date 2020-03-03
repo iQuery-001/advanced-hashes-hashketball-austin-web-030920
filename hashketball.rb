@@ -221,7 +221,7 @@ def player_stats(given_player)
           # player.each do |(stat, value)|
             if player[:player_name] == given_player
               player_hash = player
-              binding.pry
+              # binding.pry
               if !player[:player_name]
                 player_hash.delete(:player_name)
                 return player_hash
