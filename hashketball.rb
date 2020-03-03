@@ -253,7 +253,11 @@ def big_shoe_rebounds
   game_hash.each do |(place, team)|
     team.each do |(attribute, data)|
       if attribute == :players
+        data.each do |players|
+          if player[:player_name] == biggest_shoe_player
 
+          end
+        end
       end
     end
   end
