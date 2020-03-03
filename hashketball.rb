@@ -184,7 +184,7 @@ def team_names
     team.each do |(attribute, data)|
       # binding.pry
       if attribute == :players
-        binding.pry
+        # binding.pry
         data.each do |(stat, value)|
           name_list << stat[:player_name]
         end
