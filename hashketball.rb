@@ -182,14 +182,8 @@ def team_names
   game_hash.each do |(place, team)|
     # binding.pry
     team.each do |(attribute, data)|
-      # binding.pry
-      if attribute == :players
-        # binding.pry
-        data.each do |(stat, value)|
-          name_list << stat[:player_name]
-          # binding.pry
-        end
-      end
+      if attribute == team_name
+      name_list << data
     end
       # binding.pry
   end
