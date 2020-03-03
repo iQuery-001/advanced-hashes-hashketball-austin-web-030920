@@ -195,6 +195,6 @@ end
 def player_numbers(team_name)
   number_list = []
   game_hash.each do |(place, team)|
-    if team[:team_name] ==
+    if team[:team_name] == team_name
   end
 end
