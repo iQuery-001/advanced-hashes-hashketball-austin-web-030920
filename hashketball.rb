@@ -302,7 +302,10 @@ def winning_team
         data.each do |player|
           if place == home
             home_points += player[:points]
+          else
+            away_points += player[:points]
           end
+          
         end
 
       end
