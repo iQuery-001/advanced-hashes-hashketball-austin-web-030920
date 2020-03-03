@@ -212,7 +212,7 @@ def player_numbers(team_name)
 end
 
 def player_stats(given_player)
-  player_hash
+  player_hash = {}
   game_hash.each do |(place, team)|
     team.each do |(attribute, data)|
       # binding.pry
