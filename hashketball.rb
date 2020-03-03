@@ -198,12 +198,9 @@ def player_numbers(team_name)
     if team[:team_name] == team_name
       team.each do |(attribute, data)|
         if attribute == :players
-          attribute.each do |(key, value)|
-            binding.pry
-            if key == :number
-              number_list << value
-              binding.pry
-            end
+          player_counter = 0
+          while player_counter < data.length
+
           end
         end
       end
